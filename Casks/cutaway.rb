@@ -7,7 +7,6 @@ cask "cutaway" do
   desc "Automatic time tracking for DaVinci Resolve editors"
   homepage "https://github.com/svanlink/cutaway"
 
-  depends_on macos: ">= :sonoma"
 
   app "Cutaway.app"
 
