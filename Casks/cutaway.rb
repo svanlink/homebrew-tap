@@ -16,7 +16,11 @@ cask "cutaway" do
   ]
 
   caveats <<~EOS
-    Cutaway is unsigned. On first launch, right-click the app in
-    /Applications and choose Open (macOS remembers after once).
+    Cutaway is signed ad-hoc (no paid Apple Developer ID). On first
+    launch macOS may warn about an unidentified developer. Either:
+      1. Right-click Cutaway.app in /Applications and choose Open
+         (needed once — macOS remembers), or
+      2. Install without the quarantine flag:
+         brew install --cask --no-quarantine svanlink/tap/cutaway
   EOS
 end
