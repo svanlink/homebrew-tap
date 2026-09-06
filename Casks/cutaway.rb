@@ -1,6 +1,6 @@
 cask "cutaway" do
-  version "1.2.0"
-  sha256 "af3a9c13334a77bfa9f366f1566959c7e153bf73fdaabfe0ee492d0190c4cf9a"
+  version "1.3.0"
+  sha256 "20be5d4df5ac062deddf5a6434a29cee327844420db74f29c7f9ebf631150d6e"
 
   url "https://github.com/svanlink/cutaway/releases/download/v#{version}/Cutaway-#{version}.zip"
   name "Cutaway"
